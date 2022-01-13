@@ -1,0 +1,9 @@
+concerns- LCD wont read "IR Controls Online"
+	 if it does i want it to stay on the top line the whole time
+	- under void loop "lcd.clear()"  will that clear the screen? if so, can it be removed
+	 to not clear screan from saying "IR Controls Online" the entire time?
+
+
+--I want the second line to show whether "a button led on" or "d button led off"
+	on code under void loop, under while statement, will "(Serial.available() > 0)"
+	need to be changed to "(Serial.available() > 1)" to only print on the 2nd line?
